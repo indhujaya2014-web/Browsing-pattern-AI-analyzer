@@ -1,6 +1,6 @@
 # Time-Based Browsing Pattern Analyzer using Deep Learning with RAM Usage Correlation 🧠💻  
 An intelligent system designed to analyze browser history and correlate digital habits with system performance. This tool extracts data from local SQLite databases, categorizes web activity, clusters user sessions, and utilizes Deep Learning to identify anomalies and predict future behavior.  
-## Features
+## 🎯Features
   # Data Collection  
     > Browser history extraction from SQLite (Chrome/Edge)
     > RAM monitoring using psutil every 5 seconds
@@ -30,16 +30,16 @@ An intelligent system designed to analyze browser history and correlate digital 
     > Productivity recommendations  
     
 # 📂 Project Structure  
-├── data/
-│   ├── history.csv            # Extracted Browser History
-│   ├── ram_logs.csv           # System Performance Logs
-├── notebooks/
-│   ├── Browsing_pattern_AI_analyzer.ipynb # Main Analysis & DL Model
-├── src/
-│   ├── extractor.py           # SQLite extraction script
-│   ├── app.py                 # Streamlit Dashboard code
-├── requirements.txt           # Environment dependencies
-└── README.md
+├── data/  
+│   ├── history.csv            # Extracted Browser History  
+│   ├── ram_logs.csv           # System Performance Logs  
+├── notebooks/  
+│   ├── Browsing_pattern_AI_analyzer.ipynb # Main Analysis & DL Model  
+├── src/  
+│   ├── extractor.py           # SQLite extraction script  
+│   ├── app.py                 # Streamlit Dashboard code  
+├── requirements.txt           # Environment dependencies  
+└── README.md  
 
 ## 🛠️ Tech Stack
 - **Language**: Python 3.10+
@@ -49,7 +49,7 @@ An intelligent system designed to analyze browser history and correlate digital 
 -	**Deep Learning**: TensorFlow/Keras (Autoencoders/LSTM)
 - **Visualization**: Matplotlib, Seaborn, Streamlit(UI Optional Dashboard)
 
-## Output Results  
+## 📊Output Results  
 The system produces:  
 •	Top domains and categories  
 •	Hourly browsing patterns  
@@ -58,7 +58,7 @@ The system produces:
 •	Deep learning predictions  
 •	Behavior recommendations  
 
-# Installation & Setup
+# ⚙️Installation & Setup
 ## Install dependencies
 pip install -r requirements.txt
 
