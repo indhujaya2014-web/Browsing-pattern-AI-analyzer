@@ -78,7 +78,7 @@ jupyter notebook notebooks/Browsing_pattern_AI_analyzer.ipynb
 •	LSTM Integration: Predicting the next category of browsing to nudge the user toward productivity.  
 •	Multi-Browser Support: Integrating Firefox and Safari history paths.  
 
-# 👤 Author
-Jayapoorani M
-Data Science Enthusiast
+# 👤 Author  
+Jayapoorani M  
+Data Science Enthusiast  
 
