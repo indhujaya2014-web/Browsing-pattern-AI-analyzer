@@ -27,10 +27,58 @@ An intelligent system designed to analyze browser history and correlate digital 
     Generates actionable insights such as:
     > Late night social media alerts
     > Memory heavy websites
-    > Productivity recommendations
+    > Productivity recommendations  
+    
+# 📂 Project Structure  
+├── data/
+│   ├── history.csv            # Extracted Browser History
+│   ├── ram_logs.csv           # System Performance Logs
+├── notebooks/
+│   ├── Browsing_pattern_AI_analyzer.ipynb # Main Analysis & DL Model
+├── src/
+│   ├── extractor.py           # SQLite extraction script
+│   ├── app.py                 # Streamlit Dashboard code
+├── requirements.txt           # Environment dependencies
+└── README.md
+
 ## 🛠️ Tech Stack
-- **Languages**: Python 3.9+
-- **Data**: Pandas, SQLite, NumPy
-- **ML/DL**: Scikit-Learn, TensorFlow/Keras
-- **Monitoring**: Psutil (System metrics)
-- **UI**: Streamlit (Optional Dashboard)
+- **Language**: Python 3.10+
+- **Data Handling**: Pandas, NumPy, SQLite3
+- **System Monitoring**: Psutil (System metrics)
+-	**Machine Learning**: Scikit-Learn (K-Means)
+-	**Deep Learning**: TensorFlow/Keras (Autoencoders/LSTM)
+- **Visualization**: Matplotlib, Seaborn, Streamlit(UI Optional Dashboard)
+
+## Output Results  
+The system produces:  
+•	Top domains and categories  
+•	Hourly browsing patterns  
+•	Session clusters  
+•	RAM usage correlations  
+•	Deep learning predictions  
+•	Behavior recommendations  
+
+# Installation & Setup
+## Install dependencies
+pip install -r requirements.txt
+
+## Run the background RAM logger (Run this while browsing)
+python src/ram_logger.py
+
+## Run the extraction and AI analysis
+jupyter notebook notebooks/Browsing_pattern_AI_analyzer.ipynb
+
+# 🛡️ Privacy & Security  
+•	Local Processing: All SQLite extraction happens locally on your machine.  
+•	Data Obfuscation: The system is designed to strip sensitive query strings from URLs before analysis.  
+•	Git Safety: The .gitignore file is pre-configured to ensure no .db or .csv files are ever uploaded to public repositories.  
+
+# 📈 Future Scope  
+•	Active Tab Tracking: Estimating precise "Focus Time" vs. "Idle Time."  
+•	LSTM Integration: Predicting the next category of browsing to nudge the user toward productivity.  
+•	Multi-Browser Support: Integrating Firefox and Safari history paths.  
+
+# 👤 Author
+Jayapoorani M
+Data Science Enthusiast
+
