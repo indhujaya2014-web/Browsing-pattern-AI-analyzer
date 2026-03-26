@@ -1,0 +1,6 @@
+type,icon,title,Evidence,Action
+Productivity,⏰,Peak Distraction Hour: 13:00,Highest browsing volume at 13:00 with 41 visits,"Protect 13:00-14:00 for deep work. Turn off notifications, close non-essential tabs."
+Positive Habit,📚,Strong Learning Behavior Detected,Learning sites account for 33.0% of browsing,Great job! Schedule learning sessions during peak focus hours and track progress.
+Focus,🔄,High Tab-Switching Detected,Category switching rate: 0.78 (>0.55 = fragmented),Use single-tab focus. Tools like OneTab can reduce distractions.
+IT Performance,💾,Memory-Heavy Browsing Categories,"Top 3 RAM-heavy: social, learning, shopping (peaks: 2500 MB, 2492 MB, 2457 MB)",Close tabs from these categories during heavy work. Use lightweight browsers.
+Behavior Insight,🚨,2 Anomalous Sessions Detected,"Sessions with unusual patterns (time, switching, duration)",Review these sessions -- they often indicate distraction or fatigue.
