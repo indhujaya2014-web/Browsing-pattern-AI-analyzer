@@ -30,18 +30,20 @@ An intelligent system designed to analyze browser history and correlate digital 
     > Productivity recommendations  
     
 # 📂 Project Structure  
-├── data/  
-│   ├── browsing_history.csv   # Extracted Browser History  
-│   ├── ram_logs.csv           # System Performance Logs  
-|   ├── domain_category_map.csv # Domain category mapped
 ├── Project_doc/
 │   ├── browsing_pattern_sample_1lac
 │   ├── DS105_Final_Project
 │   ├── info_graphics
+├── data/  
+│   ├── browsing_history.csv     # Extracted Browser History  
+│   ├── ram_logs.csv             # System Performance Logs  
+│   ├── domain_category_map.csv  # Domain category mapped
+├── report/
+│   ├── final_report.pdf         # Final project report in pdf 
 ├── notebooks/  
 │   ├── Browsing_pattern_AI_analyzer.ipynb # Main Analysis & DL Model  
-├── ├── dashboard.py           # Streamlit Dashboard code  
-├── requirements.txt           # Environment dependencies  
+├── ├── dashboard.py             # Streamlit Dashboard code  
+├── requirements.txt             # Environment dependencies  
 └── README.md  
 
 # 🛠️ Tech Stack
@@ -50,7 +52,7 @@ An intelligent system designed to analyze browser history and correlate digital 
 - **System Monitoring**: Psutil (System metrics)
 -	**Machine Learning**: Scikit-Learn (K-Means)
 -	**Deep Learning**: TensorFlow/Keras (Autoencoders/LSTM)
-- **Visualization**: Matplotlib, Seaborn, Streamlit(UI Optional Dashboard)
+- **Visualization**: Matplotlib, Plotly, Seaborn, Streamlit(UI Optional Dashboard)
 
 # 📊Output Results  
 The system produces:  
@@ -63,10 +65,11 @@ The system produces:
 
 # ⚙️Installation & Setup
 ## Install dependencies
-pip install -r requirements.txt
+pip install -r requirements.txt  
 
-## Run the background RAM logger (Run this while browsing)
-python src/ram_logger.py
+## Optional Dashboard
+Run Streamlit dashboard:
+streamlit run dashboard.py
 
 ## Run the extraction and AI analysis
 jupyter notebook notebooks/Browsing_pattern_AI_analyzer.ipynb
