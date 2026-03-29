@@ -31,13 +31,16 @@ An intelligent system designed to analyze browser history and correlate digital 
     
 # 📂 Project Structure  
 ├── data/  
-│   ├── history.csv            # Extracted Browser History  
+│   ├── browsing_history.csv   # Extracted Browser History  
 │   ├── ram_logs.csv           # System Performance Logs  
+|   ├── domain_category_map.csv # Domain category mapped
+├── Project_doc/
+│   ├── browsing_pattern_sample_1lac
+│   ├── DS105_Final_Project
+│   ├── info_graphics
 ├── notebooks/  
 │   ├── Browsing_pattern_AI_analyzer.ipynb # Main Analysis & DL Model  
-├── src/  
-│   ├── extractor.py           # SQLite extraction script  
-│   ├── app.py                 # Streamlit Dashboard code  
+├── ├── dashboard.py           # Streamlit Dashboard code  
 ├── requirements.txt           # Environment dependencies  
 └── README.md  
 
