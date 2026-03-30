@@ -30,10 +30,10 @@ An intelligent system designed to analyze browser history and correlate digital 
     > Productivity recommendations  
     
 # 📂 Project Structure  
-├── Project_doc/
-│   ├── browsing_pattern_sample_1lac
-│   ├── DS105_Final_Project
-│   ├── info_graphics
+├── Project_doc/  
+│   ├── browsing_pattern_sample_1lac  
+│   ├── DS105_Final_Project  
+│   ├── info_graphics  
 ├── data/  
 │   ├── browsing_history.csv     # Extracted Browser History  
 │   ├── ram_logs.csv             # System Performance Logs  
